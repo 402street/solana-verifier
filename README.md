@@ -13,8 +13,7 @@ Verifies Solana transactions for x402 payments.
   "amount": 0.25,
   "currency": "USDC"
 }
-
-
+```
 **Response:**
 ```json
 {
@@ -24,18 +23,20 @@ Verifies Solana transactions for x402 payments.
   "currency": "USDC",
   "reference": "abc123"
 }
-
+```
 **If invalid:**
 ```json
 { 
 "ok": false, "error": "reference_mismatch"
 }
-
+```
 **Setup:**
 ```bash
 cp .env.example .env
 npm install
 npm start
+```
+
 Notes
 Uses @solana/web3.js for transaction lookups.
 
