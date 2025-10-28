@@ -1,0 +1,17 @@
+{
+  "name": "solana-verifier",
+  "version": "1.0.0",
+  "description": "x402 Solana verifier service for confirming on-chain payments",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
